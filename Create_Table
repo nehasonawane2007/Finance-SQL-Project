@@ -40,3 +40,6 @@ VALUES
 (19, '2024-02-20', 'Charlie Brown', 'Deposit', 4500, 'USD', 23000, 'UPI', 'Miami', 'Online Sale'),
 (20, '2024-02-22', 'Alice Smith', 'Deposit', 3000, 'AED', 9300, 'Bank Transfer', 'Abu Dhabi', 'Savings Deposit');
 
+
+
+
