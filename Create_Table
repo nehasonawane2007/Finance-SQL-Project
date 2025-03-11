@@ -14,7 +14,6 @@ CREATE TABLE Financial_Transactions (
 );
 
 
-
 # Inserted Data into Table
 
 INSERT INTO Financial_Transactions 
