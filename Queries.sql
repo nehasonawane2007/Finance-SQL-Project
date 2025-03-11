@@ -16,6 +16,7 @@ SELECT
         ) AS Running_Balance
 FROM Financial_Transactions;
 
+
 /#  Q.2 Find Account Holders with the Highest Total Deposits in Each Currency? #/
 
 WITH Currency_Deposits AS (
