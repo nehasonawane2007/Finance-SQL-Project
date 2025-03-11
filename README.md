@@ -1,18 +1,18 @@
 💰 Financial Transactions SQL Scripts
 
-* 🚀 Overview
+🚀 Overview
 
 Welcome to the Financial Transactions SQL Scripts repository! This collection of SQL scripts is designed to help you efficiently manage, analyze, and extract insights from financial transaction data. 
 The scripts cover database schema creation, data population, and powerful analytical queries to uncover financial trends and summaries.
 
 
-* 📂 Files Included
+📂 Files Included
 
 📌 Create_Table_Insert_Data.sql – Defines the Financial_Transactions table and inserts sample records.
 📌 Queries.sql – Contains advanced SQL queries for financial analysis and reporting.
 
 
-* 🏦 Database Schema
+🏦 Database Schema
 
 The Financial_Transactions table stores transaction details with the following attributes:
 
@@ -37,7 +37,7 @@ Branch_Location:   The branch where the transaction was processed.
 Remarks:           Additional details or comments related to the transaction.
 
 
-* 📊 Analytical Queries & Insights
+📊 Analytical Queries & Insights
 
 The Queries.sql file includes a collection of powerful analytical queries to help derive insights:
 
@@ -66,7 +66,7 @@ Provides a detailed breakdown of transactions per account holder.
 Useful for analyzing individual spending or saving behavior.
 
 
-* ⚙️ How to Use
+⚙️ How to Use
 
 💾 Prerequisites
 
@@ -75,7 +75,7 @@ Ensure you have a SQL database engine installed, such as:
 ✅ PostgreSQL
 ✅ SQL Server
 
-* ▶️ Execution Steps
+▶️ Execution Steps
 
 1️⃣ Run Create_Table_Insert_Data.sql to create the table and populate it with sample data.
 2️⃣ Run Queries.sql to generate insights and analyze transaction patterns.
