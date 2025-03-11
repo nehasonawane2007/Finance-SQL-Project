@@ -1,4 +1,5 @@
 # Created Table
+
 CREATE TABLE Financial_Transactions (
     Transaction_ID INT PRIMARY KEY,
     Transaction_Date DATE,
@@ -13,7 +14,9 @@ CREATE TABLE Financial_Transactions (
 );
 
 
+
 # Inserted Data into Table
+
 INSERT INTO Financial_Transactions 
 (Transaction_ID, Transaction_Date, Account_Holder, Transaction_Type, Amount, Currency, Balance, Transaction_Mode, Branch_Location, Remarks) 
 VALUES
