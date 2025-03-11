@@ -19,21 +19,28 @@ FROM Financial_Transactions;
 
 # Q.2 Find Account Holders with the Highest Total Deposits in Each Currency?
 
+WITH Currency_Deposits AS (
+    SELECT 
+        Account_Holder, 
+        Currency, 
+        SUM(Amount) AS Total_Deposit
+    FROM Financial_Transactions
+    WHERE Transaction_Type = 'Deposit'
+    GROUP BY Account_Holder, Currency
+), Max_Deposits AS (
+    SELECT 
+        Currency, 
+        MAX(Total_Deposit) AS Max_Deposit
+    FROM Currency_Deposits
+    GROUP BY Currency
+)
 SELECT 
-    Account_Holder, 
-    Currency, 
-    SUM(Amount) AS Total_Deposit
-FROM Financial_Transactions
-WHERE Transaction_Type = 'Deposit'
-GROUP BY Account_Holder, Currency
-HAVING SUM(Amount) = (
-    SELECT MAX(Total_Amount) FROM (
-        SELECT Currency, SUM(Amount) AS Total_Amount
-        FROM Financial_Transactions
-        WHERE Transaction_Type = 'Deposit'
-        GROUP BY Account_Holder, Currency
-    ) AS Currency_Deposits
-);
+    c.Account_Holder, 
+    c.Currency, 
+    c.Total_Deposit
+FROM Currency_Deposits c
+JOIN Max_Deposits m 
+ON c.Currency = m.Currency AND c.Total_Deposit = m.Max_Deposit;
 
 
 # Q.3 Identify Accounts with More Withdrawals than Deposits?
