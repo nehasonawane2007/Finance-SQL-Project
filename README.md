@@ -6,15 +6,15 @@ The dataset is structured in a single table, Financial_Transactions, which recor
 
 # Database Design:
 The Financial_Transactions table contains the following fields:
-Transaction_ID (Primary Key)
-Transaction_Date
-Account_Holder
-Transaction_Type (Deposit/Withdrawal)
-Amount
-Currency (USD, AED, INR, etc.)
-Balance (After transaction)
-Transaction_Mode (Bank Transfer, UPI, Cash, Credit Card, etc.)
-Branch_Location
+Transaction_ID (Primary Key),
+Transaction_Date,
+Account_Holder,
+Transaction_Type (Deposit/Withdrawal),
+Amount,
+Currency (USD, AED, INR, etc.),
+Balance (After transaction),
+Transaction_Mode (Bank Transfer, UPI, Cash, Credit Card, etc.),
+Branch_Location,
 Remarks (Description of transaction)
 
 
