@@ -76,10 +76,4 @@ WHERE rnk = 1;
 SELECT Account_Holder, COUNT(DISTINCT Branch_Location) AS Unique_Locations
 FROM Financial_Transactions
 GROUP BY Account_Holder
-HAVING COUNT(DISTINCT Branch_Location) > 1
-
-
-
-
-
-
+HAVING COUNT(DISTINCT Branch_Location) > 1;
