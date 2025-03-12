@@ -17,25 +17,25 @@ The scripts cover database schema creation, data population, and powerful analyt
 
 The Financial_Transactions table stores transaction details with the following attributes:
 
-Transaction_ID:     An integer that uniquely identifies each transaction (Primary Key).
+1. Transaction_ID: An integer that uniquely identifies each transaction (Primary Key).
 
-Transaction_Date:  The date when the transaction occurred.
+2. Transaction_Date: The date when the transaction occurred.
 
-Account_Holder:    A string representing the name of the account holder.
+3. Account_Holder: A string representing the name of the account holder.
 
-Transaction_Type:  Specifies whether the transaction is a Deposit or Withdrawal.
+4. Transaction_Type: Specifies whether the transaction is a Deposit or Withdrawal.
 
-Amount:            The monetary value of the transaction, stored as a decimal number.
+5. Amount: The monetary value of the transaction, stored as a decimal number.
 
-Currency:          The type of currency used in the transaction (e.g., USD, EUR).
+6. Currency: The type of currency used in the transaction (e.g., USD, EUR).
 
-Balance: T         he account balance after the transaction.
+7. Balance: The account balance after the transaction.
 
-Transaction_Mode:  The method of transaction execution, such as Online, Cash, etc.
+8. Transaction_Mode: The method of transaction execution, such as Online, Cash, etc.
 
-Branch_Location:   The branch where the transaction was processed.
+9. Branch_Location: The branch where the transaction was processed.
 
-Remarks:           Additional details or comments related to the transaction.
+10. Remarks: Additional details or comments related to the transaction.
 
 
 📊 Analytical Queries & Insights
