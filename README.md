@@ -1,11 +1,13 @@
-💰 Financial Transactions SQL Scripts
+💰 Financial Transactions SQL Scripts 
 
 🚀 Overview
+
 Welcome to the Financial Transactions SQL Scripts repository! This collection of SQL scripts is designed to help you efficiently manage, analyze, and extract insights from financial transaction data. 
 The scripts cover database schema creation, data population, and powerful analytical queries to uncover financial trends and summaries.
 
 
 📂 Files Included
+
 📌 Create_Table_Insert_Data.sql – Defines the Financial_Transactions table and inserts sample records.
 
 📌 Queries.sql – Contains advanced SQL queries for financial analysis and reporting.
@@ -34,8 +36,6 @@ Transaction_Mode:  The method of transaction execution, such as Online, Cash, et
 Branch_Location:   The branch where the transaction was processed.
 
 Remarks:           Additional details or comments related to the transaction.
-
-
 
 
 📊 Analytical Queries & Insights
