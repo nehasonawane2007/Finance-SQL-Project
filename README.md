@@ -83,7 +83,7 @@ Ensure you have a SQL database engine installed, such as:
 2️⃣ Run Queries.sql to generate insights and analyze transaction patterns.
 
 
-* 👨‍💻 Author
+👨‍💻 Author
 
 📌 [Neha Sonawane] – Passionate about data analytics and financial insights.
 
