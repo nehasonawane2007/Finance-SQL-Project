@@ -79,10 +79,12 @@ Ensure you have a SQL database engine installed, such as:
 ▶️ Execution Steps
 
 1️⃣ Run Create_Table_Insert_Data.sql to create the table and populate it with sample data.
+
 2️⃣ Run Queries.sql to generate insights and analyze transaction patterns.
 
 
 * 👨‍💻 Author
 
 📌 [Neha Sonawane] – Passionate about data analytics and financial insights.
+
 🔍 Happy Querying! 🚀📊
